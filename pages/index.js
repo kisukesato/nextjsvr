@@ -1,5 +1,4 @@
 const Index = () => (
-    <body style="margin:0px; overflow:hidden;">
         <script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>
         <script src="https://jeromeetienne.github.io/AR.js/aframe/build/aframe-ar.js"></script>
 
@@ -10,7 +9,6 @@ const Index = () => (
             </a-marker>
             <a-entity camera></a-entity>
         </a-scene>
-    </body>
 )
 
 export default Index
